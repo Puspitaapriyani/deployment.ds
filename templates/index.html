@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Curriculum Vitae</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #5F9EA0;
+  padding: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #DEB887;
+  padding: 25px;
+  img src="Foto1.jpg" width="200" height="200" style="border-radius: 50%;
+}
+
+/* Style the list inside section */
+nav ul {
+  list-style-type: none;
+  padding: 30px;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #5F9EA0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 900px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PUSPITA APRIYANI</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li style="text-align: center;">
+	     <img src="Foto1.jpg" width="200" height="200" style="border-radius: 50%;"/><br>
+	  </li>
+	  <h1>Skill</h1>
+	  <p>- HTML dan CSS<br>- MS. Word dan Power Point</p>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Latar Belakang</h1>
+    <p>Saya adalah seorang mahasiswa dengan latar belakang pendidikan sistem informasi yang sangat tertarik pada bagaimana AI dapat digunakan untuk menyelesaikan masalahmasalah yang kompleks dan memberikan solusi yang lebih baik dibandingkan metode 
+	tradisional. Hal ini memotivasi saya untuk melakukan studi independen dan mengejar ilmu yang lebih dalam mengenai AI dan teknologi yang terkait. Melalui studi independen ini,
+	saya berharap dapat meningkatkan kemampuan dan pengetahuan saya dalam bidang AI, serta dapat mengaplikasikan teknologi ini dalam proyek-proyek yang akan datang. </p>
+	<p></p>
+	<br></br>
+	<h1>Praktik Kerja Lapangan</h1>
+	<p>2019 - 2020 : Dinas Pendidikan Kota Bogor.<br>
+	- Menginput surat masuk & keluar dengan sistem
+	</br></p>
+	
+</article>
+</section>
+
+<footer>
+   <p>Copyright &copy; 2023 Puspita Apriyani.</p>
+</footer>
+
+</body>
+</html>
